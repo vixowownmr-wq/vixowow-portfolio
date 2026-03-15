@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+
+h2 {
+  color: #aaaaaa;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+/* Imagen de perfil redonda */
+img {
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  margin-bottom: 16px;
+}
+
+/* Secciones con espacio */
+section {
+  margin-bottom: 60px;
+}
+
+/* Menú de navegación */
+nav a {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+
+/* Lista de géneros sin puntos */
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+li {
+  background-color: #1a1a1a;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
