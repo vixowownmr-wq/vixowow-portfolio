@@ -4,51 +4,50 @@
   <meta charset="UTF-8">
   <title>Vixowow | Productor Musical</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Vixowow</h1>
-  <img src="moon.jpg" alt="Vixowow" width="200">
-  <h2>Productor Musical</h2>
-  <p>Beats fuera del planeta. Creando desde 2018.</p>
 
-  <a href="https://soundcloud.com/crzyvam">Escucha mis beats</a>
-</body>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#beats">Beats</a>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
 
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#beats">Beats</a>
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
+  <section id="inicio">
+    <img src="moon.jpg" alt="Vixowow" width="200">
+    <h1>Vixowow</h1>
+    <h2>Productor Musical</h2>
+    <p>Beats fuera del planeta. Creando desde 2018.</p>
+  </section>
 
-    <section id="inicio">
-        <img src="moon.jpg" alt="Vixowow" width="200">
-        <h1>Vixowow</h1>
-        <h2>Productor Musical</h2>
-        <p>Beats fuera del planeta. Creando desde 2018</p>
-    </section>
+  <section id="beats">
+    <h2>Mis Beats</h2>
+    <p>Géneros que trabajo:</p>
+    <ul>
+      <li>Trap</li>
+      <li>Reggaeton</li>
+      <li>R&B</li>
+    </ul>
+    <a href="https://soundcloud.com/crzyvam">Escucha en SoundCloud</a>
+  </section>
 
-    <section id="beats">
-        <h2>Mis Beats</h2>
-        <p>Géneros que trabajo:</p>
-        <ul>
-            <li>Trap</li>
-            <li>Reggaeton</li>
-            <li>R&B</li>
-        </ul>
-        <a href="https://soundcloud.com/crzyvam">Escucha en SoundCloud</a>
-    </section>
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Productor chileno con más de 7 años de trayectoria, creando ritmos, mezclando y masterizando canciones y EPs. Apasionado de la música y el arte.</p>
+  </section>
 
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>Productor chileno con más de 7 años de trayectoria, creando ritmos mezclando y masterizando canciones y EPs. Apasionado de la musica y el arte.</p>
-    </section>
-
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>¿Quieres un beat? Escríbeme.</p>
-    </section>
-</html>
+  <section id="contacto">
+  <h2>Contacto</h2>
+  <p>¿Quieres un beat? Escríbeme.</p>
+  <form action="https://formspree.io/f/mjgaedyl" method="POST">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo" required>
+    <textarea name="mensaje" placeholder="Cuéntame qué necesitas..." rows="4" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
 
 </body>
 </html>
