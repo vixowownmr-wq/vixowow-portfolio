@@ -487,3 +487,32 @@ audio {
     flex-direction: column;
   }
 }
+.filtros {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.filtro-btn {
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 99px;
+  border: 1px solid #00aaff44;
+  background: none;
+  color: #aaaaaa;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.2s;
+}
+
+.filtro-btn:hover {
+  border-color: #00aaff;
+  color: #ffffff;
+}
+
+.filtro-btn.active {
+  background-color: #00aaff;
+  color: #000000;
+  border-color: #00aaff;
+}

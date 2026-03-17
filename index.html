@@ -93,9 +93,15 @@
 
 <section id="catalogo">
   <h2>Catálogo de Beats</h2>
+  <div class="filtros">
+  <button class="filtro-btn active" onclick="filtrar('todos')">Todos</button>
+  <button class="filtro-btn" onclick="filtrar('lento')">Lentos — 100-114</button>
+  <button class="filtro-btn" onclick="filtrar('medio')">Medios — 115-124</button>
+  <button class="filtro-btn" onclick="filtrar('rapido')">Rápidos — 125+</button>
+</div>
   <p>Todos los beats disponibles para licenciar</p>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="130">
     <div class="beat-info">
       <span class="beat-nombre">PP90M1</span>
       <span class="beat-detalle">130 BPM · C Minor</span>
@@ -105,7 +111,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="130">
     <div class="beat-info">
       <span class="beat-nombre">Red9</span>
       <span class="beat-detalle">130 BPM</span>
@@ -115,7 +121,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="115">
     <div class="beat-info">
       <span class="beat-nombre">MP7</span>
       <span class="beat-detalle">115 BPM · E Minor</span>
@@ -125,7 +131,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="130">
     <div class="beat-info">
       <span class="beat-nombre">Ray Gun</span>
       <span class="beat-detalle">130 BPM</span>
@@ -135,7 +141,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="130">
     <div class="beat-info">
       <span class="beat-nombre">Broken Butterfly</span>
       <span class="beat-detalle">130 BPM</span>
@@ -145,7 +151,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="123">
     <div class="beat-info">
       <span class="beat-nombre">MSR</span>
       <span class="beat-detalle">123 BPM</span>
@@ -155,7 +161,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="113">
     <div class="beat-info">
       <span class="beat-nombre">Widow Wine</span>
       <span class="beat-detalle">113 BPM</span>
@@ -165,7 +171,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="125">
     <div class="beat-info">
       <span class="beat-nombre">Origins</span>
       <span class="beat-detalle">125 BPM</span>
@@ -175,7 +181,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="122">
     <div class="beat-info">
       <span class="beat-nombre">Pack-a-Punch</span>
       <span class="beat-detalle">122 BPM</span>
@@ -185,7 +191,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="104">
     <div class="beat-info">
       <span class="beat-nombre">Juggernog</span>
       <span class="beat-detalle">104 BPM</span>
@@ -195,7 +201,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="120">
     <div class="beat-info">
       <span class="beat-nombre">Perkaholic</span>
       <span class="beat-detalle">120 BPM</span>
@@ -205,7 +211,7 @@
     </audio>
   </div>
 
-  <div class="beat-card">
+  <div class="beat-card" data-bpm="110">
     <div class="beat-info">
       <span class="beat-nombre">Chicago Typewriter</span>
       <span class="beat-detalle">110 BPM</span>
@@ -435,6 +441,6 @@
     <button type="submit">Enviar mensaje</button>
   </form>
 </section>
-
+  <script src="script.js"></script>
 </body>
 </html>
