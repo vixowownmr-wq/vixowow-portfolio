@@ -287,3 +287,31 @@ audio {
   object-fit: cover;
   flex-shrink: 0;
 }
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .trabajo-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .beat-card {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-wrap: wrap;
+  }
+}
