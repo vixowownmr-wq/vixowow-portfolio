@@ -397,3 +397,92 @@ audio {
   font-size: 12px;
   color: #555555;
 }
+#licencias {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 60px;
+}
+
+.licencia-cards {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.licencia-card {
+  flex: 1;
+  background-color: #1a1a1a;
+  border: 1px solid #00aaff22;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: border-color 0.2s;
+}
+
+.licencia-card:hover {
+  border-color: #00aaff;
+}
+
+.licencia-destacada {
+  border-color: #00aaff;
+  position: relative;
+}
+
+.licencia-tag {
+  font-size: 11px;
+  background-color: #00aaff;
+  color: #000000;
+  padding: 3px 10px;
+  border-radius: 99px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.licencia-nombre {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.licencia-precio {
+  font-size: 16px;
+  color: #00aaff;
+  font-weight: 700;
+}
+
+.licencia-lista {
+  flex: 1;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 4px 0;
+}
+
+.licencia-lista li {
+  font-size: 12px;
+  color: #aaaaaa;
+  padding-left: 14px;
+  position: relative;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+
+.licencia-lista li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #00aaff;
+}
+
+@media (max-width: 600px) {
+  .licencia-cards {
+    flex-direction: column;
+  }
+}
